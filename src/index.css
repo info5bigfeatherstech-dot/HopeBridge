@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Regular/NeueMontreal-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Medium/NeueMontreal-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Bold/NeueMontreal-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root { font-family: "Poppins", sans-serif; color: #17221B; background: #fff; font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+body { margin: 0; min-width: 320px; background: #fff; font-size: 17px; line-height: 1.65; }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { color: #103F23; background: #FEF3C7; }
+:focus-visible { outline: 3px solid #F59E0B; outline-offset: 3px; }
